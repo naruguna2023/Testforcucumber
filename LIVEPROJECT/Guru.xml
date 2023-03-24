@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parallel suites">
+  <test  name="Testing two sitess">
+    <classes>
+      
+      <class name="testComponent.LoginTest"/>
+      <class name="testComponent.HomePageTest"/>
+      <class name="testComponent.NewCustomerTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
